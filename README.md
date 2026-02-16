@@ -2,7 +2,7 @@
 
 Local browser-based workbench for [Strudel](https://strudel.cc/) music files. Write live-coded music in a tabbed REPL with an embedded Claude Code terminal alongside for AI-assisted composition.
 
-![strudel-oven screenshot](https://github.com/user-attachments/assets/c230d6d4-9a19-4415-9b7b-26104802888e)
+![strudel-oven screenshot](https://github.com/user-attachments/assets/3f694583-fbd9-43e1-8214-f548e906abfd)
 
 ## Prerequisites
 
