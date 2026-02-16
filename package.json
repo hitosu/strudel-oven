@@ -1,0 +1,26 @@
+{
+  "name": "strudel-oven",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js & vite",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "dependencies": {
+    "express": "^5",
+    "ws": "^8",
+    "node-pty": "^1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4",
+    "react": "^19",
+    "react-dom": "^19",
+    "vite": "^6",
+    "@xterm/xterm": "^5",
+    "@xterm/addon-fit": "^0.10"
+  }
+}

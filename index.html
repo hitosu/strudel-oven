@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strudel Workbench</title>
+  <script>
+    // Use larger audio buffer to prevent clicks/pops
+    const _AC = window.AudioContext;
+    window.AudioContext = function(opts) { return new _AC({ latencyHint: 'playback', ...opts }) };
+    window.AudioContext.prototype = _AC.prototype;
+  </script>
+  <script src="https://unpkg.com/@strudel/repl@latest"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/workbench/main.jsx"></script>
+</body>
+</html>
