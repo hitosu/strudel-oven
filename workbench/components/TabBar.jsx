@@ -1,6 +1,7 @@
 export function TabBar({ tabs, activeTabId, onSelectTab, onCloseTab, onAddTab }) {
   return (
     <div className="tab-bar">
+      <span className="tab-bar-title">strudel-oven</span>
       {tabs.map(tab => (
         <div
           key={tab.id}

@@ -24,6 +24,15 @@ body {
   overflow-x: auto;
 }
 
+.tab-bar-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e0e0e0;
+  padding: 0 12px;
+  border-right: 1px solid #0f3460;
+  white-space: nowrap;
+}
+
 .tab {
   display: flex;
   align-items: center;
